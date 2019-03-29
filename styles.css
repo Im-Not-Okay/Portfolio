@@ -1,0 +1,111 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image:url("http://www.scalsys.com/wallpaper/Rainbow-Ombre-Wallpaper/Rainbow-Ombre-Wallpaper_505955.jpg");
+  background-size:100%;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  font-family: 'VT323', monospace;
+}
+p {
+    font-size:20px;
+    }
+h4{
+    font-size:25px;
+   font-family: 'VT323', monospace;
+    }
+/* Custom page header */
+.header {
+  border-bottom: 2px dotted #ff8080;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px dotted #e5e5e5;
+  color:black;
+  font-family: 'VT323', monospace;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+    font-family: 'VT323', monospace;
+  }
+}
+.header button{
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left:13px;
+    font-family: 'VT323', monospace;
+}
+.avatar{
+    height:150px;
+    width:170px;
+    border-radius:10%;
+    border: dotted black 5px;
+}
+.modal-body p{
+    font-size: 25px;
+    font-family: 'VT323', monospace;
+    margin-left: 12px;
+    margin-top: 7px;
+    }
+.list{
+    font-size: 23px;
+    }
